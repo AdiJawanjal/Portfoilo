@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Jawanjal | DevOps Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #00ff00;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            border-bottom: 2px solid #00ff00;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #00ff00;
+            background-color: #252525;
+        }
+        a {
+            color: #00ff00;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .typing-effect::after {
+            content: '|';
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+        .animated-text {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 2px solid #00ff00;
+            animation: typing 3s steps(40, end) forwards;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid #00ff00;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img.jpg" alt="Aditya Jawanjal" class="profile-img">
+        <h1 class="animated-text">Aditya Jawanjal</h1>
+        <p class="typing-effect">DevOps Engineer | Cloud Enthusiast</p>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a fresher in DevOps with knowledge in AWS, Terraform, Ansible, Jenkins, Docker, Kubernetes, and ArgoCD through various projects.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>AWS</li>
+            <li>Terraform</li>
+            <li>Ansible</li>
+            <li>Jenkins</li>
+            <li>Docker</li>
+            <li>Kubernetes</li>
+            <li>ArgoCD</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some projects I have worked on:</p>
+        <ul>
+            <li>Automated Infrastructure Deployment using Terraform</li>
+            <li>CI/CD Pipeline with Jenkins and Kubernetes</li>
+            <li>Configuration Management with Ansible</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="jawanjaladi1@gmail.com">jawanjaladi1@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/AdiJawanjal">AdJawanjal/GitHub</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/aditya-jawanjal-b06ab5230/">AdiJawanjal/Linkedin</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Aditya Jawanjal | DevOps Portfolio</p>
+    </footer>
+</body>
+</html>
